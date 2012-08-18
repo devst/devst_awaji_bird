@@ -34,6 +34,7 @@ public class FizzBuzzTest {
 	@Test
 	public void test1() {
 		assertEquals(this.instance.fizzBuzz(1), "1");
+                fail();
 	}
 	@Test
 	public void test2() {
